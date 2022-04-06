@@ -219,6 +219,62 @@ files:
     }, 30000)
 
   learner_created: false
-feedback_link: https://hyperskill.org/projects/115/stages/627/implement#comment
-status: Unchecked
+- name: src/assets/css/style.css
+  visible: true
+  text: |-
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        display: flex;
+        flex-grow: 1;
+        height: 100vh;
+        width: 100vw;
+        margin: 0;
+        background-image: url("../img/world.png");
+    }
+
+    .quiz-area {
+        display: flex;
+        flex-grow: 1;
+        flex-shrink: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .quiz-area h1 {
+        font-family: "Arial Black", sans-serif;
+        color: gray;
+    }
+
+    .quiz-content {
+        display: grid;
+        grid-template: 150px 150px 150px / 150px 150px 150px;
+    }
+
+    .card {
+        text-align: center;
+        margin: .3rem;
+        padding: 1rem;
+        z-index: 2;
+        border-radius: .5rem;
+        box-shadow: 0 0 3px rgba(226, 226, 243, 0.78);
+        background-color: #cfcff1;
+        cursor: pointer;
+    }
+
+    .question {
+        color: darkblue;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+  learner_created: true
+feedback_link: https://hyperskill.org/learn/step/10247#comment
+status: Solved
+feedback:
+  message: Well done! You've finished the project. Select a new project on <a href="https://hyperskill.org/projects">JetBrains
+    Academy</a> to continue learning.
+  time: Wed, 06 Apr 2022 18:13:52 UTC
 record: -1

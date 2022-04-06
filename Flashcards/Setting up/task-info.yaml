@@ -58,6 +58,9 @@ files:
     </body>
     </html>
   learner_created: false
-feedback_link: https://hyperskill.org/projects/115/stages/625/implement#comment
-status: Unchecked
-record: -1
+feedback_link: https://hyperskill.org/learn/step/10245#comment
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 06 Apr 2022 12:19:42 UTC
+record: 1
